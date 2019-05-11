@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  servicestatus:
+    image: ${DOCKER_REGISTRY-}servicestatus
+    container_name: servicestatus
+    build:
+      context: .
+      dockerfile: ServiceStatus/Dockerfile
+
+  categoryservice:
+    image: ${DOCKER_REGISTRY-}categoryservice
+    container_name: categoryservice
+    build:
+      context: .
+      dockerfile: CategoryService/Dockerfile
+
