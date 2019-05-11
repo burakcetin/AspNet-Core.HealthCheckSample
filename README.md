@@ -1,2 +1,2 @@
 # AspNet-Core.HealthCheckSample
-Docker ile micro servisleri durumlarını monitore etme
+Docker üzerinde çalışan micro servislerin durumlarını monitore etme
